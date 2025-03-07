@@ -12,8 +12,6 @@ import Expense from "./pages/Dashboard/Expense";
 import UserProvider from "./context/userContext";
 import { Toaster } from "react-hot-toast";
 
-// 4 scooty
-// 6 bike
 function App() {
   return (
     <UserProvider>
