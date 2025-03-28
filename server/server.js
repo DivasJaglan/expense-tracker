@@ -7,7 +7,7 @@ const authRoutes = require("./routes/authRoutes");
 const incomeRoutes = require("./routes/incomeRoutes");
 const expenseRoutes = require("./routes/expenseRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
-
+const compression = require("compression");
 const app = express();
 
 // Middleware to handle CORS
@@ -21,6 +21,8 @@ app.use(
 app.use(express.json());
 
 connectDB();
+
+app.use(compression());
 
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/income", incomeRoutes);
