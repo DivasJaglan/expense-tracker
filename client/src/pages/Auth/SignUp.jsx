@@ -1,6 +1,6 @@
 import AuthLayout from "../../components/layouts/AuthLayout";
 import { Link, useNavigate } from "react-router-dom";
-import Input from "../../components/Inputs/input";
+import Input from "../../components/Inputs/Input";
 import { validateEmail } from "../../utils/helper";
 import { useContext, useState } from "react";
 import ProfilePhotoSelector from "../../components/Inputs/ProfilePhotoSelector";
