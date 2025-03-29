@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 export const BASE_URL = "https://expense-tracker-server-4mxf.onrender.com";
+=======
+export const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+// export const BASE_URL = "https://expense-tracker-server-4mxf.onrender.com";
+>>>>>>> c273a3d (Updated App.jsx and server.js)
 
 //utils/apiPaths.js
 export const API_PATHS = {
