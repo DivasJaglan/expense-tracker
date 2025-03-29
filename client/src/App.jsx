@@ -34,7 +34,6 @@ function App() {
 }
 
 export default App;
-
 const Root = () => {
   // Check if token exists in localStorage
   const isAuthenticated = !!localStorage.getItem("token");
